@@ -33,7 +33,7 @@ ms.locfileid: "88512701"
 
 - 一括登録
 
-構成マネージャー クライアントは管理ポイントと共にこのトークンを管理するため、OS バージョンの依存関係はありません。 この機能は、任意の[サポートされているクライアント OS バージョン](../../plan-design/configs/supported-operating-systems-for-clients-and-devices.md)で使用できます。
+Configuration Manager クライアントは管理ポイントと共にこのトークンを管理するため、OS バージョンの依存関係はありません。 この機能は、任意の[サポートされているクライアント OS バージョン](../../plan-design/configs/supported-operating-systems-for-clients-and-devices.md)で使用できます。
 
 > [!NOTE]
 > これらの方法では、デバイス中心の管理シナリオのみがサポートされます。
@@ -63,7 +63,7 @@ ms.locfileid: "88512701"
 
 1. トークンをコピーし、安全な場所に保存します。
 
-1. インターネットベースのデバイスに、構成マネージャー クライアントをインストールします。 クライアント インストール パラメーター [ **/regtoken**](about-client-installation-properties.md#regtoken) を含めます。 次のコマンド ラインの例には、他の必要なセットアップ パラメーターとプロパティが含まれています。
+1. インターネットベースのデバイスに、Configuration Manager クライアントをインストールします。 クライアント インストール パラメーター [ **/regtoken**](about-client-installation-properties.md#regtoken) を含めます。 次のコマンド ラインの例には、他の必要なセットアップ パラメーターとプロパティが含まれています。
 
     `ccmsetup.exe /mp:https://CONTOSO.CLOUDAPP.NET/CCM_Proxy_MutualAuth/72186325152220500 CCMHOSTNAME=CONTOSO.CLOUDAPP.NET/CCM_Proxy_MutualAuth/72186325152220500 SMSSiteCode=ABC /regtoken:eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik9Tbzh2Tmd5VldRUjlDYVh5T2lacHFlMDlXNCJ9.eyJTQ0NNVG9rZW5DYXRlZ29yeSI6IlN7Q01QcmVBdXRoVG9rZW4iLCJBdXRob3JpdHkiOiJTQ0NNIiwiTGljZW5zZSI6IlNDQ00iLCJUeXBlIjoiQnVsa1JlZ2lzdHJhdGlvbiIsIlRlbmFudElkIjoiQ0RDQzVFOTEtMEFERi00QTI0LTgyRDAtMTk2NjY3RjFDMDgxIiwiVW5pcXVlSWQiOiJkYjU5MWUzMy1wNmZkLTRjNWItODJmMy1iZjY3M2U1YmQwYTIiLCJpc3MiOiJ1cm46c2NjbTpvYXV0aDI6Y2RjYzVlOTEtMGFkZi00YTI0LTgyZDAtMTk2NjY3ZjFjMDgxIiwiYXVkIjoidXJuOnNjY206c2VydmljZSIsImV4cCI6MTU4MDQxNbUwNSwibmJmIjoxNTgwMTU2MzA1fQ.ZUJkxCX6lxHUZhMH_WhYXFm_tbXenEdpgnbIqI1h8hYIJw7xDk3wv625SCfNfsqxhAwRwJByfkXdVGgIpAcFshzArXUVPPvmiUGaxlbB83etUTQjrLIk-gvQQZiE5NSgJ63LCp5KtqFCZe8vlZxnOloErFIrebjFikxqAgwOO4i5ukJdl3KQ07YPRhwpuXmwxRf1vsiawXBvTMhy40SOeZ3mAyCRypQpQNa7NM3adCBwUtYKwHqiX3r1jQU0y57LvU_brBfLUL6JUpk3ri-LSpwPFarRXzZPJUu4-mQFIgrMmKCYbFk3AaEvvrJienfWSvFYLpIYA7lg-6EVYRcCAA`
 
